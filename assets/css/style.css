@@ -491,6 +491,45 @@
     justify-content: center;
     margin-block-start: 16px;
   }
+
+  .symptom {
+    background-color: var(--alice-blue);
+    --section-padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .symptom-title { margin-block: 20px 30px; 
+    color: var(--ming);
+  }
+  
+  .symptom-card {
+    background-color: var(--white);
+    border-radius: var(--radius-12);
+    padding: 20px;
+  }
+  
+  .symptom-card .card-text {
+    color: var(--eerie-black);
+    border-block-end: 1px solid var(--midnight-green_a25);
+    padding-block-end: 12px;
+    margin-block-end: 14px;
+  }
+  
+  .symptom-card .input-wrapper { position: relative; }
+  
+  .symptom-card .input-field {
+    color: var(--eerie-black);
+    border-block-end: 1px solid var(--gainsboro);
+    padding-inline-end: 18px;
+  }
+  
+  .symptom-card .btn {
+    width: 100%;
+    justify-content: center;
+    margin-block-start: 16px;
+  }
   
   
   
